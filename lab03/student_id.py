@@ -1,4 +1,8 @@
-
+#設定變數 n 紀錄
+n = input('please input a number:')
+#將輸入值變為整數
+number = int(n)
+#if-else判斷式用除以二餘式判斷奇偶
 if number%2 == 0:
   print('it is even')
 else:
@@ -15,3 +19,4 @@ else:
   print('your student ID is odd')
 #輸出學號
 print('your student ID is:', m+id)
+  

@@ -11,7 +11,10 @@ for n in range(0, 4):
     dict0[key] = value_list
 #印出整個dictionary
 print(dict0)
+<<<<<<< HEAD
   
 
     
 
+=======
+>>>>>>> b1048e4b16101298f02e3a88c7d9797f4bf8e427

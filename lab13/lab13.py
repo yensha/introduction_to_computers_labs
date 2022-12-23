@@ -47,7 +47,7 @@ ave_list = []
 for i in range(12):
     ave_list.append(ave)
 #畫出九年每月平均虛線
-plt.plot(m, ave_list, color = 'red', linestyle = "--", label = 'Mean of 9 Years')
+plt.axhline(y=ave, xmin=0, xmax=13, color = 'red', linestyle = "--", label = 'Mean of 9 Years')
 #標出九年每月平均溫度
 plt.text(1, ave, ave, va = 'bottom', fontsize = 10)
 
@@ -101,7 +101,7 @@ ave_list = []
 for i in range(12):
     ave_list.append(ave)
 #畫出九年每月平均虛線
-plt.plot(m, ave_list, color = 'red', linestyle = "--", label = 'Mean of 9 Years')
+plt.axhline(y=ave, xmin=0, xmax=13, color = 'red', linestyle = "--", label = 'Mean of 9 Years')
 #標出九年每月平均溫度
 plt.text(1, ave, ave, va = 'bottom', fontsize = 10)
 

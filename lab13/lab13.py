@@ -115,7 +115,6 @@ plt.yticks(range(16,34,2))
 plt.title('Tainan Monthly Mean Temperature Of 2013 To 2021')
 plt.xlabel('Month')
 plt.ylabel('Temperature in Degree C')
-plt.savefig('lab13_02.png')
 plt.legend() 
 
 #將兩張圖放在一起

@@ -15,6 +15,7 @@ for line in f.readlines():
     y.append(s[0])
 f.close
 
+fig = plt.figure()
 plt.scatter(x, y, label = 'Data')
 first = np.polyfit(x, y, 1)
 pf = np.poly1d(first)
@@ -38,4 +39,5 @@ plt.title('OddExperiment')
 plt.xlabel('x')
 plt.ylabel('y')
 plt.legend()
+plt.savefig('lab13_plus.png')
 plt.show()

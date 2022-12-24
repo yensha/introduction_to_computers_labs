@@ -29,13 +29,12 @@ yvals_2=ps(x)
 lse_2 = round(mean_squared_error(y, yvals_2), 5)#lse
 r2 = round(r2_score(y, yvals_2), 5)#R^2 error
 
-plt.plot(x, yvals_1,label="Fit of degree 1, LSE = "+ str(lse_1))
-plt.plot(x, yvals_2,label="Fit of degree 2, LSE = "+ str(lse_2))
-plt.plot(x, yvals_1,label="Fit of degree 1, R^2 = "+ str(r1))
-plt.plot(x, yvals_2,label="Fit of degree 2, R^2 = "+ str(r2))
+plt.plot(x, yvals_1, color = '#EDB120', label = "Fit of degree 1, LSE = "+ str(lse_1))
+plt.plot(x, yvals_2, color = 'green', label = "Fit of degree 2, LSE = "+ str(lse_2))
+plt.plot(x, yvals_1, color = 'red',label="Fit of degree 1, R2 = "+ str(r1))
+plt.plot(x, yvals_2, color = '#7E2F8E',label="Fit of degree 2, R2 = "+ str(r2))
 
-
-plt.title('OddExperiment')
+plt.title('OddExperiment Data')
 plt.xlabel('x')
 plt.ylabel('y')
 plt.legend()

@@ -1,4 +1,4 @@
-Course name : Introduction to Computers
+# Course name : Introduction to Computers
 
 The link below provides a summary for you: 
 
